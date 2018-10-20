@@ -5,6 +5,6 @@
 # (They will make our program complain more, but preventing
 # headaches in debugging valid but meaningless code.)
 use strict;
-use warnings
+use warnings;
 
 print "Hello world!\n";

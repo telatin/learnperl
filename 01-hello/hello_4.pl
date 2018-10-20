@@ -5,20 +5,14 @@
 # (They will make our program complain more, but preventing
 # headaches in debugging valid but meaningless code.)
 use strict;
-use warnings
+use warnings;
 
-# Here we declare a variable, assigning to it the value 'Andrea'.
-# This variable is thus a string
-my $name = 'Andrea';
+# When printing by default we print on the STandard OUTput:
+print STDOUT "Hello to the STDOUT (1)!\n";
 
-# An array is a list of elements.
-# Here we declare one
-my @names = ('Carl', 'Hannah', $name);
+# You can explicity specify to print on STDOUT like this:
+print STDOUT "Hello to the STDOUT (2)!\n";
 
-# Now we can use a single element of the
-# array using this notation and an index (starting 
-# with 0 for the first element)
-print "Hello $names[0]!\n";
-print "Hello $names[1]!\n";
-print "Hello $names[2]!\n";
+# But we can also print to the STandard ERRor (STDERR):
+print STDERR 'Hello, standard error!\n";
 
