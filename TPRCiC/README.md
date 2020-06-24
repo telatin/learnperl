@@ -2,19 +2,19 @@ Conference in the Cloud (A Perl and Raku Conference) 2020 - Lightning Talk
 
 # Distributing a Perl module via Bioconda (Miniconda)
 
-> When you develop a tool that requires external applications (or compiled binaries), CPAN is not the easies way of distributing it. I'll show how Miniconda became the favourite package manager in the bioinformatics community, with a tiny tutorial using the "BioConda channel" as an example.
+> When you develop a tool that requires external applications (or compiled binaries), CPAN is not the easiest way of distributing it. I'll show how Miniconda became the favourite package manager in the bioinformatics community, with a tiny tutorial using the "BioConda channel" as an example.
 
-Perl has a long history of serving the bioinformatics community, and nowadays "Miniconda" has become the most used package and dependency manager for bioinformaticians, with a very active channel called "BioConda". In this lighting talk I'll use BioConda as an example of bringing Perl tools (and modules) to Miniconda.  In spite of Miniconda being born in the Python world, 10% of all Bioconda packages are Perl modules, and several highly downloaded programs are written in Perl.
+Perl has a long history of serving the bioinformatics community, and nowadays "Miniconda" has become the most used package and dependency manager for bioinformaticians, with a very active channel called "BioConda". In this lightning talk I'll use BioConda as an example of bringing Perl tools (and modules) to Miniconda.  Despite Miniconda being born in the Python world, 10% of all Bioconda packages are Perl modules, and several highly downloaded programs are written in Perl.
 
 ## About me
 
 I'm [Andrea Telatin](https://telatin.github.io/), a bioinformatics researcher at the [Quadram Institute Bioscience](https://www.quadram.ac.uk) in Norwich (UK).
-I started using Perl in 2004, and never completely abandoned it, and a couple of years ago I tried making my way into [CPAN](https://metacpan.org/author/PROCH) and that has been amazing (as trying to make a module, I discovered many excellent ones I never heard of).
+I started using Perl in 2004, and never completely abandoned it, and a couple of years ago I tried making my way into [CPAN](https://metacpan.org/author/PROCH) and that has been amazing (as trying to make a module, I discovered many great ones I never heard of).
 
 ## The problem
 
 Bioinformatics analyses rely on a **massive amount of dependencies**, sometimes incompatible packages or different versions of the same package are required. 
-Some years ago a lot of tools were difficult to install as they required some compenency in different languages, and at the same time distributing Perl code was difficult as most users had no idea how to install the needed modules.
+Some years ago a lot of tools were difficult to install as they required some competency in different languages, and at the same time distributing Perl code was difficult as most users had no idea how to install the needed modules.
 
 ## The solution
 
@@ -69,9 +69,15 @@ Every recipe lives in a subfolder of the `[bioconda-recipes]()` repository. The 
 
 ## The generic "conda-forge"
 
-Of course, BioConda specializes on bioinformatics packages. At the same time, the broad use of Perl among bioinformaticians made several Perl modules (like **Capture::Tiny**) only available via BioConda.
+Of course, BioConda specializes on bioinformatics packages. At the same time, the widespread use of Perl among bioinformaticians made several Perl modules (like **Capture::Tiny**) only available via BioConda.
 
 There is at the moment the idea of moving non bioinformatics packages (and modules) to the more appropriate [conda-forge](https://conda-forge.org/) channel.
+
+
+## Final remarks
+
+I'm grateful for the opportunity of joining the Perl and Raku conference this year. 
+I had a long journey with Perl and I would like to thank you all for your efforts in maintaining packages, documentations, and helping people.
 
 
 📑 **[Slides](https://github.com/telatin/learnperl/blob/master/TPRCiC/bioconda_slides.pdf)**
