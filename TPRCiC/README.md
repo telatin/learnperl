@@ -47,13 +47,22 @@ BioConda - the bioinformatics source - currently hosts more than 7.000 packages,
 
 [BioConda](https://bioconda.github.io/) is a repository (hosted on GitHub) of conda recipes, but also a building system. You just need to submit a pull request with your new recipe to have it added by the BioConda team. 
 
-## A conda "recipe" for a `Module::Name`
+### A (Bio)Conda "recipe" for a generic `Module::Name`
 
 A recipe consists of minimum two files:
 
 * meta.yaml (containing all the dependencies needed, the source URLs and some other metadata). Example [here](https://gist.github.com/telatin/e572e388edb1603705beef0830152381)
 * build.sh (if your module has Build.PL or Makefile.PL, the generic template is [like this](https://github.com/bioconda/bioconda-recipes/blob/master/recipes/perl-capture-tiny/build.sh).
 
+### Adding a new recipe
 
-See also:
-* [Capture::Tiny meta.yaml](https://github.com/bioconda/bioconda-recipes/blob/master/recipes/perl-capture-tiny/meta.yaml) - example `meta.yaml` for a typical Perl module
+Every recipe lives in a subfolder of the `[bioconda-recipes]()` repository. The [workflow](https://bioconda.github.io/contributor/workflow.html) is:
+* Fork the repository
+* Add your `perl-module-name` (or just `packagename` if its a program rather than a module) folder with the proper _meta.yaml_ and _build.sh_
+* Create a Pull Request (called "Add packagename") and follow the instructions from BioCondaBot
+
+## The generic "conda-forge"
+
+Of course, BioConda specializes on bioinformatics packages. At the same time, the broad use of Perl among bioinformaticians made several Perl modules (like **Capture::Tiny**) only available via BioConda.
+
+There is at the moment the idea of moving non bioinformatics packages (and modules) to the more appropriate [conda-forge](https://conda-forge.org/) channel.
