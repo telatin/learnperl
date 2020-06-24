@@ -3,9 +3,10 @@
 
 Scripts used for Bash/Perl training sessions.
 
-Companion repository: [learn_bash](https://github.com/telatin/learn_bash)
 
-NOTE: I stopped teaching Perl in bioinformatics classes on 2015.
+_NOTE_: I stopped teaching Perl in bioinformatics classes on 2015.
+
+_NOTE 2_: companion repository: [learn_bash](https://github.com/telatin/learn_bash)
 
 ### Slides
 * [Introduction to Perl (Italian)](https://www.slideshare.net/procionesapiente?utm_campaign=profiletracking&utm_medium=sssite&utm_source=ssslideview)
