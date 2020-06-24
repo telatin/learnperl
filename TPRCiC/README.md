@@ -72,3 +72,6 @@ Every recipe lives in a subfolder of the `[bioconda-recipes]()` repository. The 
 Of course, BioConda specializes on bioinformatics packages. At the same time, the broad use of Perl among bioinformaticians made several Perl modules (like **Capture::Tiny**) only available via BioConda.
 
 There is at the moment the idea of moving non bioinformatics packages (and modules) to the more appropriate [conda-forge](https://conda-forge.org/) channel.
+
+
+📑 **[Slides](https://github.com/telatin/learnperl/blob/master/TPRCiC/bioconda_slides.pdf)**
