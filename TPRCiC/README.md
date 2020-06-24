@@ -81,3 +81,8 @@ I had a long journey with Perl and I would like to thank you all for your effort
 
 
 📑 **[Slides](https://github.com/telatin/learnperl/blob/master/TPRCiC/bioconda_slides.pdf)**
+
+
+---
+
+# A module that helped
