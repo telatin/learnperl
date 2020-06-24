@@ -39,7 +39,7 @@ conda activate my_environment
 ```
 
 To give an idea of the popularity of the system, a Perl program I use frequently is called **[Prokka](https://anaconda.org/bioconda/prokka)**,
-and it has been installed >40.000 times with Miniconda!  ![Prokka downloads badge](https://anaconda.org/bioconda/prokka/badges/downloads.svg)
+and it has been installed [![Prokka downloads badge](https://anaconda.org/bioconda/prokka/badges/downloads.svg)](https://anaconda.org/bioconda/prokka) times with Miniconda!  
 
 ## Conda "channels"
 
