@@ -1,7 +1,7 @@
 Conference in the Cloud (A Perl and Raku Conference) 2020 - Lightning Talk
 
 * [Talk: distributing a Perl module via Bioconda](#Distributing-a-Perl-module-via-Bioconda)
-* [Extra: a Perl module that avoided coding a mobile app](#)
+* [Extra: a Perl module that avoided coding a mobile app](#A-module-that-helped-me-interacting-with-a-device)
 
 # Distributing a Perl module via Bioconda
 
@@ -88,4 +88,8 @@ I had a long journey with Perl and I would like to thank you all for your effort
 
 ---
 
-# A module that helped
+# A module that helped me interacting with a device
+
+Last year I joined a team of _biohackers_ to make a small prototype of a heating device using a Raspberry Pi.
+
+[![IoHeat](https://hackster.imgix.net/uploads/attachments/944150/5dec0880-a948-11e9-9425-7c520c17a8c6_ZKKxvKdjIx.jpg?auto=compress%2Cformat&w=740&h=555&fit=max)](https://www.hackster.io/ioheat/ioheat-a-contained-oasis-in-the-coldroom-fb4dec)
