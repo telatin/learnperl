@@ -101,7 +101,9 @@ Thanks to `WWW::Telegram::BotAPI` this became easy to implement.
 🔗 [WWW::Telegram::BotAPI](https://metacpan.org/pod/WWW::Telegram::BotAPI)
 
 Example: 
+
 ![Telegram](telegram.png)
 
 The team:
+
 [![IoHeat](https://hackster.imgix.net/uploads/attachments/944150/5dec0880-a948-11e9-9425-7c520c17a8c6_ZKKxvKdjIx.jpg?auto=compress%2Cformat&w=740&h=555&fit=max)](https://www.hackster.io/ioheat/ioheat-a-contained-oasis-in-the-coldroom-fb4dec)
