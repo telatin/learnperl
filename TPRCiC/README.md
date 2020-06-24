@@ -38,6 +38,9 @@ conda activate my_environment
 
 ```
 
+To give an idea of the popularity of the system, a Perl program I use frequently is called **[Prokka](https://anaconda.org/bioconda/prokka)**,
+and it has been installed >40.000 times with Miniconda!  ![Prokka downloads badge](https://anaconda.org/bioconda/prokka/badges/downloads.svg)
+
 ## Conda "channels"
 
 Channels are like repository sources in other package managers. Just signing up to [anaconda.org](https://anaconda.org) you will be able to upload your packages to your own channel. You'll need to "build" your own packages though.
@@ -54,6 +57,9 @@ A recipe consists of minimum two files:
 * meta.yaml (containing all the dependencies needed, the source URLs and some other metadata). Example [here](https://gist.github.com/telatin/e572e388edb1603705beef0830152381)
 * build.sh (if your module has Build.PL or Makefile.PL, the generic template is [like this](https://github.com/bioconda/bioconda-recipes/blob/master/recipes/perl-capture-tiny/build.sh).
 
+### A (Bio)Conda "recipe" for a Perl program
+
+A good example is having a look at [the recipe](https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokka) for the already mentioned Prokka.
 ### Adding a new recipe
 
 Every recipe lives in a subfolder of the `[bioconda-recipes]()` repository. The [workflow](https://bioconda.github.io/contributor/workflow.html) is:
