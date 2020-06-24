@@ -1,6 +1,9 @@
 Conference in the Cloud (A Perl and Raku Conference) 2020 - Lightning Talk
 
-# Distributing a Perl module via Bioconda (Miniconda)
+* [Talk: distributing a Perl module via Bioconda](#Distributing-a-Perl-module-via-Bioconda)
+* [Extra: a Perl module that avoided coding a mobile app](#)
+
+# Distributing a Perl module via Bioconda
 
 > When you develop a tool that requires external applications (or compiled binaries), CPAN is not the easiest way of distributing it. I'll show how Miniconda became the favourite package manager in the bioinformatics community, with a tiny tutorial using the "BioConda channel" as an example.
 
