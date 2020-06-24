@@ -92,8 +92,6 @@ I had a long journey with Perl and I would like to thank you all for your effort
 
 Last year I joined a [team of _biohackers_](https://www.hackster.io/ioheat/ioheat-a-contained-oasis-in-the-coldroom-fb4dec) to make a small prototype of a heating device using a Raspberry Pi. It's a glorified heater that we wanted to remotely control to enable a heating cycle to start (it takes >30 minutes) when leaving home to reach the laboratory, so that we could find the required reagents warm when arriving at the lab.
 
-[![IoHeat](https://hackster.imgix.net/uploads/attachments/944150/5dec0880-a948-11e9-9425-7c520c17a8c6_ZKKxvKdjIx.jpg?auto=compress%2Cformat&w=740&h=555&fit=max)](https://www.hackster.io/ioheat/ioheat-a-contained-oasis-in-the-coldroom-fb4dec)
-
 We had limited time, so first we did the scripts to control the temperature (in Python: better support of the RPis GPIO).
 
 Then we wanted to make a **mobile interface**. I was considering a standard web application hosted somewhere but that would easily eat up a lot of time, so I came up with a totally different approach: controlling the device with a **Telegram bot**.
@@ -102,4 +100,8 @@ Thanks to `WWW::Telegram::BotAPI` this became easy to implement.
 
 🔗 [WWW::Telegram::BotAPI](https://metacpan.org/pod/WWW::Telegram::BotAPI)
 
+Example: 
 ![Telegram](telegram.png)
+
+The team:
+[![IoHeat](https://hackster.imgix.net/uploads/attachments/944150/5dec0880-a948-11e9-9425-7c520c17a8c6_ZKKxvKdjIx.jpg?auto=compress%2Cformat&w=740&h=555&fit=max)](https://www.hackster.io/ioheat/ioheat-a-contained-oasis-in-the-coldroom-fb4dec)
